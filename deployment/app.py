@@ -9,7 +9,7 @@ import pickle
 st.set_page_config(layout="wide")
 
 # panggil dataset ke dalam aplikasi
-df = pd.read_csv('books_dataset_cleaned.csv')
+df = pd.read_csv('deployment/books_dataset_cleaned.csv')
 
 # panggil model TF-IDF
 with open('laibrarian.pkl', 'rb') as file:
