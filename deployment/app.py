@@ -34,7 +34,7 @@ st.markdown(
 )
 
 # pasang logo untuk ditampilkan
-st.image('lai.png', width=200)
+st.image('deployment/lai.png', width=200)
 
 # tulis subheader
 st.write('###### Discover your new journey in literature.')
