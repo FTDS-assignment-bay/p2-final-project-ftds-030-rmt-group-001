@@ -1,0 +1,19 @@
+-- create table
+CREATE TABLE final_project (
+	isbn13 VARCHAR,
+	isbn10 VARCHAR,
+	title VARCHAR,
+    	subtitle VARCHAR,
+    	authors VARCHAR,
+    	categories VARCHAR,
+    	thumbnail VARCHAR,
+    	description VARCHAR,
+    	published_year double precision,
+    	average_rating double precision,
+    	num_pages double precision,
+    	ratings_count double precision
+);
+
+-- copy data
+-- query ini dilakukan di psql
+\copy final_project FROM 'C:\Users\ARIF\Hacktiv8_Python\Final_Project\data.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
