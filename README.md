@@ -29,11 +29,11 @@ The dataset is obtained from [Kaggle](https://www.kaggle.com/datasets/abdallahwa
 - Data Cleaning: Set up Apache Airflow DAG to automation fetch and clean raw data
 - Data Storage: Store the cleaned data back into the PostgreSQL
 ### Data Science
-- Model Development: Created a recomenndation model to make product prediction based on similiarity and filter using cleaned data.
-- Model Optimization: Tune and optimalize text preprocessing by make miss input correction etc.
+- Model Development: Built a recommendation model using TF-IDF to recommend books using description.
+- Model Optimization: Optimize using different parameter and correcting typos from the input.
 ### Data Analysis
-- Visualization: Created visual representations to simplify complex information, making it more accessible.
-- Reporting: Create a comprehensive report using your collected findings and insights.
+- Visualization: Created dashboard to visualize findings on the dataset about books.
+- Reporting: Created deck to report the insights and model demo.
 
 
 ## Results
