@@ -12,7 +12,7 @@ st.set_page_config(layout="wide")
 df = pd.read_csv('deployment/books_dataset_cleaned.csv')
 
 # panggil model TF-IDF
-with open('laibrarian.pkl', 'rb') as file:
+with open('deployment/laibrarian.pkl', 'rb') as file:
     tfidf_desc = pickle.load(file)
 
 # custom CSS untuk container
