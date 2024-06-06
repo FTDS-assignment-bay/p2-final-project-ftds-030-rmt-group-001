@@ -8,10 +8,8 @@
 - Ferrasta Sebastian Veron, as Data Scientist
 - Amelia Puspita Sari, as Data Analyst
 
-## Project Overview
 
 ## Background
-
 ### Problem Statement
 Based on the reports from the American Library Association (ALA) and surveys by the Pew Research Center on reading habits, each year shows an increasing trend where many readers rely on online recommendations and digital platforms to discover new books they want to read.
 
@@ -24,8 +22,8 @@ A web-based book recommendation application is an effective solution to assist u
 ### Dataset
 The dataset is obtained from [Kaggle](https://www.kaggle.com/datasets/abdallahwagih/books-dataset/data).
 
-## Workflow
 
+## Workflow
 ### Data Engineering
 - Data Collection: Store raw data on PostgreSQL
 - Data Cleaning: Set up Apache Airflow DAG to automation fetch and clean raw data
@@ -37,6 +35,9 @@ The dataset is obtained from [Kaggle](https://www.kaggle.com/datasets/abdallahwa
 - Visualization: Created visual representations to simplify complex information, making it more accessible.
 - Reporting: Create a comprehensive report using your collected findings and insights.
 
-## 🎁 Results
+
+## Results
+- Model deployment on [Streamlit](https://laibrarian.streamlit.app)
+- Exploratory Data Analysis in [tableau](https://public.tableau.com/views/DashboardBooks_FinalProject/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 
