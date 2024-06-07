@@ -3,10 +3,10 @@
 
 ## Members:
 - Dendy Dwinanda, as Data Engineer
-- Arif Imam Fauzi, as Data Engineer
 - Andryan Kalmer Wijaya, as Data Engineer
 - Ferrasta Sebastian Veron, as Data Scientist
-- Amelia Puspita Sari, as Data Analyst
+- Amelia Puspita Sari, as Data Analyst, Data Scientist
+- Arif Imam Fauzi, as Data Analyst, Data Engineer
 
 
 ## Background
